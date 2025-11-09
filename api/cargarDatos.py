@@ -1,9 +1,12 @@
-import pandas as pd
 import os
+import pandas as pd
 import numpy as np
 
-os.makedirs("graficas", exist_ok=True)
+df01 = pd.read_json("combined_dataset.json", lines=True)
 
-df01 = pd.read_json("hf://datasets/Amod/mental_health_counseling_conversations/combined_dataset.json", lines=True)
-df02 = pd.read_csv("hf://datasets/Ram07/Detection-for-Suicide/detection_final_cleaned.csv")
+print("Dataset 1 (local):", df01.shape)
 
+print("\nPrimeras filas del dataset 1:")
+print(df01.head())
+
+#¿Cómo podemos identificar automáticamente los perfiles psicológicos de unos posibles usuarios que buscan ayuda en salud mental?
