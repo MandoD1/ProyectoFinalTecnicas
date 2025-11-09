@@ -25,7 +25,6 @@ require_once __DIR__ . '/../config.php';
             overflow-x: hidden;
         }
 
-        /* ---------------- NAV ---------------- */
         nav {
             display: flex;
             justify-content: space-between;
@@ -78,7 +77,6 @@ require_once __DIR__ . '/../config.php';
             transform: scale(1.05);
         }
 
-        /* ---------------- HERO ---------------- */
         #hero {
             display: flex;
             flex-wrap: wrap;
@@ -105,7 +103,6 @@ require_once __DIR__ . '/../config.php';
             color: #fff;
         }
 
-        /* ---------------- CARD DE ESPECIALISTA ---------------- */
         .expert-card {
             display: flex;
             align-items: center;
