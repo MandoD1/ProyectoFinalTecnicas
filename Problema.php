@@ -180,7 +180,7 @@ require_once __DIR__ . '/../config.php';
         <span>PsicologosFX</span>
     </div>
     <ul>
-        <li><a href="PP.php">Inicio</a></li>
+        <li><a href="index.php">Inicio</a></li>
         <li><a href="Contactos.php">Contactos</a></li>
     </ul>
 </nav>

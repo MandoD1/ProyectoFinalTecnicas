@@ -216,7 +216,7 @@ require_once __DIR__ . '/../config.php';
         <span>PsicologosFX</span>
     </div>
     <ul>
-        <li><a href="PP.php">Inicio</a></li>
+        <li><a href="index.php">Inicio</a></li>
         <li><a href="Problema.php">Problemática</a></li>
     </ul>
 </nav>
