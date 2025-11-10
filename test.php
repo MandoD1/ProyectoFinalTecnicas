@@ -109,8 +109,7 @@ require_once __DIR__ . '/../config.php';
             background: rgba(0, 0, 0, 0.2);
             font-size: 0.9rem;
         }
-
-        /* Estilo del pop-up */
+        
         .modal-content {
             background: rgba(50, 0, 90, 0.9);
             color: #fff;
@@ -166,7 +165,6 @@ require_once __DIR__ . '/../config.php';
     </div>
 </section>
 
-<!-- Modal de resultado -->
 <div class="modal fade" id="resultadoModal" tabindex="-1" aria-hidden="true">
     <div class="modal-dialog modal-dialog-centered">
         <div class="modal-content">
